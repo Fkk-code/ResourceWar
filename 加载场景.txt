@@ -1,0 +1,9 @@
+        AsyncOperation op = SceneManager.LoadSceneAsync(0);
+        op.allowSceneActivation = false;
+        while (!op.isDone)
+        {
+            //场景预先加载
+            
+            yield return new WaitForEndOfFrame();
+        }
+        op.allowSceneActivation = true;
