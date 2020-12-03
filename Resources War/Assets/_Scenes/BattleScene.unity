@@ -164,9 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb409aa13e5e8e9498dae6ec41c3c73c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePerfab: {fileID: 0}
-  EnemychessPerfab: []
-  PlayerchessPerfab: []
+  _battleManager: {fileID: 0}
 --- !u!1 &1973462765
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +177,7 @@ GameObject:
   - component: {fileID: 1973462767}
   - component: {fileID: 1973462766}
   - component: {fileID: 1973462769}
+  - component: {fileID: 1973462770}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -264,6 +263,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 1322173695}
+--- !u!45 &1973462770
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973462765}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 56113b3b655ab7349bab4d7d405c258a, type: 2}
 --- !u!1 &2047776477
 GameObject:
   m_ObjectHideFlags: 0

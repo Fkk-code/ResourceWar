@@ -37,13 +37,21 @@ public class AIControl : MonoBehaviour
         //初始化
         _chessManager = GetComponent<ChessManager>();
         enemyManager = null;
+        float min = 100000;
         //遍历敌人列表
         for (int i = 0; i < GameConst.GetInstance().PlayerchessPerfab.Count; i++)
         {
             if (GameConst.GetInstance().PlayerchessPerfab[i].GetComponent<ChessManager>()._chessState.Hp > 0)
             {
-                enemyManager = GameConst.GetInstance().PlayerchessPerfab[i].GetComponent<ChessManager>();
-                break;
+                if (Vector2Int.Distance(
+                    GameConst.GetInstance().PlayerchessPerfab[i].GetComponent<ChessManager>()._chessMove.startPos,
+                    _chessManager._chessMove.startPos) < min)
+                {
+                    min = Vector2Int.Distance(
+                    GameConst.GetInstance().PlayerchessPerfab[i].GetComponent<ChessManager>()._chessMove.startPos,
+                    _chessManager._chessMove.startPos);
+                    enemyManager = GameConst.GetInstance().PlayerchessPerfab[i].GetComponent<ChessManager>();
+                }
             }
         }
         //判断是否拿到攻击目标

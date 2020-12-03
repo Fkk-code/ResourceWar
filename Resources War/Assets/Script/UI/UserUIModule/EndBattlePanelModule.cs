@@ -17,8 +17,4 @@ public class EndBattlePanelModule : UIModuleBase
         }
     }
 
-    void Update()
-    {
-        
-    }
 }

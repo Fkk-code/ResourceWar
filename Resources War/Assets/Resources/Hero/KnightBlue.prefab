@@ -1308,7 +1308,7 @@ MonoBehaviour:
   MAtk: 8
   MDef: 3
   Speed: 7
-  skills: 05000000
+  skills: 0500000006000000
 --- !u!114 &-756266082447952395
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3,8 +3,9 @@ using UnityEditor;
 using System.IO;
 using System.Collections.Generic;
 
-public class SImpleTool : Editor
+public class SImpleTool
 {
+    /*
     [MenuItem("SimpleTool/CreateBaseFolder（创建必要文件夹）")]
     private static void CreateBaseFolder()
     {
@@ -215,5 +216,6 @@ public class CubeItem
     {
         return path;
     }
+    */
 }
 

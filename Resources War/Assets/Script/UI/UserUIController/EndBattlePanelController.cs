@@ -62,6 +62,7 @@ public class EndBattlePanelController : UIControllerBase
     {
         //获取关闭按钮
         UIWidgetsBase backBtn = _module.FindCurrentModuleWidget("BackBtn#");
+        backBtn.Button.onClick.RemoveAllListeners();
         //添加事件
         backBtn.Button.onClick.AddListener(() =>
         {

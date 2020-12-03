@@ -23,10 +23,7 @@ public class Btn00ByPool : ObjectByPool
     /// </summary>
     private void OnClick()
     {
-        gameObject.GetComponent<UIWidgetsBase>().Button.onClick.AddListener(() =>
-        {
-            Facace.instance.LoadScene("MainScene");
-        });
+
     }
 
     public override void ObjectInit(object initParameter)

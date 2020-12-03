@@ -11,7 +11,8 @@ public class Facace : MonoBehaviour
     private PlayableDirector playableDirector;
     void Awake()
     {
-        instance = this;
+        if(instance==null)
+            instance = this;
     }
     void Start()
     {
@@ -42,7 +43,6 @@ public class Facace : MonoBehaviour
     }
     private void LoadMainScene()
     {
-        UIManager.GetInstance().OpenModule("Main_Panel");
         try
         {
             UIManager.GetInstance().CloseModule("StartPanel");
@@ -53,10 +53,10 @@ public class Facace : MonoBehaviour
         {
             Debug.LogError(e);
         }
+        UIManager.GetInstance().OpenModule("Main_Panel");
     }
     public void LoadBattleScene()
     {
-        UIManager.GetInstance().OpenModule("BattlePanel#");
         try
         {
             UIManager.GetInstance().CloseModule("Main_Panel");
@@ -66,18 +66,23 @@ public class Facace : MonoBehaviour
         {
             Debug.LogError(e);
         }
+        UIManager.GetInstance().OpenModule("BattlePanel#");
     }
+    bool islead = false;
     /// <summary>
     /// 异步加载场景
     /// </summary>
     /// <param name="name"></param>
     public void LoadScene(string name)
     {
+        if (islead)
+            return;
         //切换场景
         StartCoroutine(EnterBattleScene());
         //异步加载场景
         IEnumerator EnterBattleScene()
         {
+            islead = true;
             //进度条
             int program = 0;
             //异步加载场景
@@ -111,6 +116,7 @@ public class Facace : MonoBehaviour
             UIManager.GetInstance().CloseModule("LoadScenePanel");
             //刷新UI
             LoadUIByScene(name);
+            islead = false;
         }
     }
     /// <summary>

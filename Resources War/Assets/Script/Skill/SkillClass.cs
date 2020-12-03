@@ -133,7 +133,7 @@ public class SkillClass : Singleton<SkillClass>
             new SkillBase(SkillEffect.Reduce,SkillTarget.Self,SkillType.MagicalValue,10),
             new SkillBase(SkillEffect.Increase,SkillTarget.Enemy,SkillType.LifeValue,20,"治疗术")
         };
-        Skill newSkill = new Skill(SkillNumber.治疗术 , 10, SkillTarget.Enemy, 5, 1, skillBases);
+        Skill newSkill = new Skill(SkillNumber.治疗术, 10, SkillTarget.Enemy, 5, 1, skillBases);
         skillInfo.Add(SkillNumber.治疗术, newSkill);
         #endregion
         #region 凝神

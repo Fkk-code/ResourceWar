@@ -7,7 +7,7 @@ using Utilty;
 public class StartPanelController : UIControllerBase
 {
     //游戏是否已经开始过
-    public bool hasStart = true;
+    public bool hasStart = false;
     //按钮生成父物体
     private Transform buttonParent;
     //开始生成按钮编号
@@ -77,7 +77,7 @@ public class StartPanelController : UIControllerBase
     private void AddBtnEvent()
     {
         //添加按钮事件
-        _module.FindCurrentModuleWidget("UI/Btn00#").Button.onClick.AddListener(
+        _module.FindCurrentModuleWidget("UI/Btn01#").Button.onClick.AddListener(
             ()=> {
                 Facace.instance.LoadScene("MainScene");
             });

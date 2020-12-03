@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -41,7 +42,14 @@ public class ChessMove : MonoBehaviour
         PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
         eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         List<RaycastResult> results = new List<RaycastResult>();
-        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        try
+        {
+            EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e);
+        }
         return results.Count > 0;
     }
     /// <summary>

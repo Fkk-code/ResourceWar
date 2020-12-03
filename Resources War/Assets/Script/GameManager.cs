@@ -18,10 +18,17 @@ public class GameManager : MonoBehaviour
             //制作测试数据
             //制作一个英雄
             heroes.Add(new Hero(HeroType.Wizard, 1, 0, HeroEnum.WizardBlue));
-            heroes.Add(new Hero(HeroType.Archer, 1, 0, HeroEnum.ArcherBlue));
-            heroes.Add(new Hero(HeroType.Barbarian, 1, 0, HeroEnum.BarbarianBlue));
-            heroes.Add(new Hero(HeroType.Knight, 1, 0, HeroEnum.KnightBlue));
+            heroes.Add(new Hero(HeroType.Wizard, 1, 0, HeroEnum.WizardPurple));
             heroes.Add(new Hero(HeroType.Wizard, 1, 0, HeroEnum.WizardRed));
+            heroes.Add(new Hero(HeroType.Archer, 1, 0, HeroEnum.ArcherBlue));
+            heroes.Add(new Hero(HeroType.Archer, 1, 0, HeroEnum.ArcherGreen));
+            heroes.Add(new Hero(HeroType.Archer, 1, 0, HeroEnum.ArcherRed));
+            heroes.Add(new Hero(HeroType.Barbarian, 1, 0, HeroEnum.BarbarianBlue));
+            heroes.Add(new Hero(HeroType.Barbarian, 1, 0, HeroEnum.BarbarianBrown));
+            heroes.Add(new Hero(HeroType.Barbarian, 1, 0, HeroEnum.BarbarianPurple));
+            heroes.Add(new Hero(HeroType.Knight, 1, 0, HeroEnum.KnightBlue));
+            heroes.Add(new Hero(HeroType.Knight, 1, 0, HeroEnum.KnightBrown));
+            heroes.Add(new Hero(HeroType.Knight, 1, 0, HeroEnum.KnightPurple));
             //设置目标
             targetHero = heroes[0].heroEnum;
         }

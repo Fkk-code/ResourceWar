@@ -27,7 +27,7 @@ public class Btn01ByPool : ObjectByPool
     {
         gameObject.GetComponent<UIWidgetsBase>().Button.onClick.AddListener(() =>
         {
-            Debug.Log("点击了Start按钮");
+            Facace.instance.LoadScene("MainScene");
         });
     }
     

@@ -125,10 +125,14 @@ public class SkillReleaser : Singleton<SkillReleaser>
                         result;
                     cm._chessState.Hp += result;
                 }
+                //显示GUI
+                cm._chessAttack.DamageGUI(cm.transform, res, color);
                 break;
             case SkillType.MagicalValue:
                 cm._chessState.Mp += result;
                 color = Color.blue;
+                //显示GUI
+                cm._chessAttack.DamageGUI(cm.transform, res, color);
                 break;
             case SkillType.MaxLifeValue:
                 //是否存在技能BUFF
@@ -185,8 +189,6 @@ public class SkillReleaser : Singleton<SkillReleaser>
             case SkillType.CritRate:
                 break;
         }
-        //显示GUI
-        cm._chessAttack.DamageGUI(cm.transform, res, color);
     }
     /// <summary>
     /// 产生粒子特效

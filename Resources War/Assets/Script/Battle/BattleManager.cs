@@ -112,8 +112,6 @@ public class BattleManager : MonoBehaviour
         GUIStyle style = new GUIStyle();
         style.name = "button";
         style.fontSize = 50;
-        style.border.left = 10;
-        style.border.top = 10;
         for (int i = 0; i < chessManagers[currentChess]._chessState.skills.Count; i++)
         {
             //制作按钮

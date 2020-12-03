@@ -9,39 +9,45 @@ public class SelectHeroPanelController : UIControllerBase
     public override void ControllerStart(UIModuleBase module)
     {
         base.ControllerStart(module);
+        Debug.Log("被打开了123213");
     }
 
     public void RefreshInfo()
     {
-        try
-        {
-            //清空列表
-            GameConst.GetInstance().PlayerchessPerfab.Clear();
-        }
-        catch (Exception e)
-        {
-            Debug.LogError(e);
-        }
+        Debug.Log("被打开了");
+        //设置地图名称；
         _module.FindCurrentModuleWidget("MapName#").Text.text = GameConst.GetInstance().activeInfo._log;
         //英雄头像父类
         Transform tff = _module.FindCurrentModuleWidget("HeroList#").transform;
-        //删除全部子物体
-        tff.DetachChildren();
+        //清空战斗角色数组
+        GameConst.GetInstance().PlayerchessPerfab.Clear();
+        //生成
         for (int i = 0; i < GameManager.instance.heroes.Count; i++)
         {
-            //获取元件预设体路径
-            string path = UIConfigurationManager.GetInstance().GetWidgetAssetPathByName("HeroToggle#");
-            //加载
-            GameObject go = ObjectPool.GetInstance().SpawnObject(path, new object[] { tff, _module });
+            GameObject go;
+            if (i >= tff.childCount)
+            {
+                //获取元件预设体路径
+                string path = UIConfigurationManager.GetInstance().GetWidgetAssetPathByName("HeroToggle#");
+                //加载
+                go = ObjectPool.GetInstance().SpawnObject(path, new object[] { tff, _module });
+            }
+            else
+            {
+                go= tff.GetChild(i).gameObject;
+            }
             //设置头像图片
             go.GetComponent<Image>().sprite =
                 Resources.Load<Sprite>("Sprite/Hero/" + GameManager.instance.heroes[i].heroEnum.ToString());
             //传参数
-            go.transform.Find("image").name = i.ToString();
+            go.transform.GetChild(0).name = i.ToString();
+            go.GetComponent<Toggle>().isOn = false;
+            go.GetComponent<Toggle>().onValueChanged.RemoveAllListeners();
             go.GetComponent<Toggle>().onValueChanged.AddListener((addHero) =>
             {
                 //收参数
                 int nnn = int.Parse(go.transform.GetChild(0).name);
+                //刷新实际当前人员
                 string ppp = "Hero/" + GameManager.instance.heroes[nnn].heroEnum.ToString();
                 GameObject ggg = Resources.Load<GameObject>(ppp);
                 if (addHero)
@@ -59,14 +65,15 @@ public class SelectHeroPanelController : UIControllerBase
                         Debug.LogError("没有找到该英雄" + e);
                     }
                 }
+
             });
         }
-        
+
         //奖励图片
         for (int i = 0; i < GameConst.GetInstance().activeInfo.Award.Length; i++)
         {
             string path = "Sprite/Collection/" + GameConst.GetInstance().activeInfo.Award[i].ToString();
-            _module.FindCurrentModuleWidget("Award"+i+"#").Image.sprite = Resources.Load<Sprite>(path);
+            _module.FindCurrentModuleWidget("Award" + i + "#").Image.sprite = Resources.Load<Sprite>(path);
         }
         //怪物图片
         for (int i = 0; i < GameConst.GetInstance().activeInfo.enemyList.Length; i++)

@@ -7,7 +7,7 @@ public class SelectHeroPanelModule : UIModuleBase
     bool isOpen = false;
     void Update()
     { 
-        if(isOpen && GameConst.GetInstance().PlayerchessPerfab.Count>0)
+        if(isOpen && GameConst.GetInstance().PlayerchessPerfab.Count>=0)
         {
             //更新参加人数
             selectHeroPanelController.UpdatePeople();
@@ -25,9 +25,23 @@ public class SelectHeroPanelModule : UIModuleBase
         }
         selectHeroPanelController.RefreshInfo();
     }
+    public override void OnResume()
+    {
+        base.OnResume();
+        selectHeroPanelController.RefreshInfo();
+    }
+    public void Destoryhero()
+    {
+        Transform tff = UIManager.GetInstance().FindWidget("SelectHeroPanel", "HeroList#").transform;
+        for (int i = 0; i < tff.childCount; i++)
+        {
+            Destroy(tff.GetChild(i));
+        }
+    }
     public override void OnClose()
     {
         base.OnClose();
+        Debug.Log("clossss");
         isOpen = false;
     }
 }
