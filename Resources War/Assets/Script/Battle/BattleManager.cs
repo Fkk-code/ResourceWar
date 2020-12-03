@@ -77,6 +77,17 @@ public class BattleManager : MonoBehaviour
         GUILayout.Label("魔法攻击力:" + chessManagers[currentChess]._chessState.MAtk, style);
         GUILayout.Label("魔法防御力:" + chessManagers[currentChess]._chessState.MDef, style);
         GUILayout.Label("速度:" + chessManagers[currentChess]._chessState.Speed, style);
+        if (chessManagers[currentChess]._chessState.buffs.Keys.Count > 0)
+        {
+            string s = "";
+            foreach (SkillNumber skill in chessManagers[currentChess]._chessState.buffs.Keys)
+            {
+                s += "|"+skill.ToString();
+            }
+            GUILayout.Label("状态:" + s, style);
+        }
+
+
         switch (showChessState)
         {
             case ShowChessState.普通:
@@ -143,7 +154,7 @@ public class BattleManager : MonoBehaviour
             {
                 //攻击成功
                 IsAction = true;
-                UIManager.GetInstance().FindWidget("BattlePanel", "MoveTxt#").Text.text = "移动";
+                UIManager.GetInstance().FindWidget("BattlePanel#", "MoveTxt#").Text.text = "移动";
                 //设置目标
                 chessManagers[currentChess]._chessAttack.ChessAttackTaget(BoardManager.instance.GetChessByPoint((int)go.transform.position.x, (int)go.transform.position.z));
                 //棋子转向

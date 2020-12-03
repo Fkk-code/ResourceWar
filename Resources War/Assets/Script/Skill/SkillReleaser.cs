@@ -69,7 +69,7 @@ public class SkillReleaser : Singleton<SkillReleaser>
                         if (result < 0)
                         {
                             //魔法伤害可以被魔法防御抵抗
-                            result = (selfcm._chessState.MAtk + result) - enemycms[j]._chessState.MDef;
+                            result = (selfcm._chessState.MAtk * (-1) + result) + enemycms[j]._chessState.MDef;
                             result = result > 0 ? 0 : result;
                         }
                         //作用
@@ -86,7 +86,7 @@ public class SkillReleaser : Singleton<SkillReleaser>
                         if (result < 0)
                         {
                             //魔法伤害可以被魔法防御抵抗
-                            result = (selfcm._chessState.MAtk + result) - enemycms[j]._chessState.MDef;
+                            result = (selfcm._chessState.MAtk*(-1) + result) + enemycms[j]._chessState.MDef;
                             result = result > 0 ? 0 : result;
                         }
                         //创造子弹
@@ -130,17 +130,55 @@ public class SkillReleaser : Singleton<SkillReleaser>
                 cm._chessState.Mp += result;
                 color = Color.blue;
                 break;
+            case SkillType.MaxLifeValue:
+                //是否存在技能BUFF
+                if (cm._chessState.buffs.ContainsKey(skillNumber))
+                    return;
+                //提升攻击力
+                cm._chessState.Hp_Max += result;
+                //该技能已被标记
+                cm._chessState.buffs.Add(skillNumber, 3);
+                break;
+            case SkillType.MaxMagicalValue:
+                //是否存在技能BUFF
+                if (cm._chessState.buffs.ContainsKey(skillNumber))
+                    return;
+                cm._chessState.Mp_Max += result;
+                //该技能已被标记
+                cm._chessState.buffs.Add(skillNumber, 3);
+                break;
             case SkillType.PhysicaLAttack:
+                //是否存在技能BUFF
+                if (cm._chessState.buffs.ContainsKey(skillNumber))
+                    return;
+                //提升攻击力
                 cm._chessState.Atk += result;
+                //该技能已被标记
+                cm._chessState.buffs.Add(skillNumber, 3);
                 break;
             case SkillType.PhysicalDefense:
+                //是否存在技能BUFF
+                if (cm._chessState.buffs.ContainsKey(skillNumber))
+                    return;
                 cm._chessState.Def += result;
+                //该技能已被标记
+                cm._chessState.buffs.Add(skillNumber, 3);
                 break;
             case SkillType.MagicAttack:
+                //是否存在技能BUFF
+                if (cm._chessState.buffs.ContainsKey(skillNumber))
+                    return;
                 cm._chessState.MAtk += result;
+                //该技能已被标记
+                cm._chessState.buffs.Add(skillNumber, 3);
                 break;
             case SkillType.MagicDefense:
+                //是否存在技能BUFF
+                if (cm._chessState.buffs.ContainsKey(skillNumber))
+                    return;
                 cm._chessState.MDef += result;
+                //该技能已被标记
+                cm._chessState.buffs.Add(skillNumber, 3);
                 break;
             case SkillType.DodgeRate:
                 break;

@@ -113,7 +113,7 @@ public class BoardManager : MonoBehaviour
             //特殊设置
             ChessState cs = GameConst.GetInstance().EnemyPrefab[i].GetComponent<ChessState>() ?? GameConst.GetInstance().EnemyPrefab[i].AddComponent<ChessState>();
             //敌方棋子
-            cs.team = 100;
+            cs.InitBeforeBattle(100);
             AIControl AIC = GameConst.GetInstance().EnemyPrefab[i].GetComponent<AIControl>() ?? GameConst.GetInstance().EnemyPrefab[i].AddComponent<AIControl>();
             //修改字典信息
             UpdateBoardDic(GameConst.GetInstance().EnemyPrefab[i].GetComponent<ChessManager>()??GameConst.GetInstance().EnemyPrefab[i].AddComponent<ChessManager>(), v2);
@@ -135,7 +135,7 @@ public class BoardManager : MonoBehaviour
             GameConst.GetInstance().PlayerchessPerfab[i].transform.position = new Vector3(v2.x, 1, v2.y);
             //特殊设置
             ChessState cs = GameConst.GetInstance().PlayerchessPerfab[i].GetComponent<ChessState>() ?? GameConst.GetInstance().PlayerchessPerfab[i].AddComponent<ChessState>();
-            cs.team = 1;
+            cs.InitBeforeBattle(1);
             //修改字典信息
             UpdateBoardDic(GameConst.GetInstance().PlayerchessPerfab[i].GetComponent<ChessManager>()?? GameConst.GetInstance().PlayerchessPerfab[i].AddComponent<ChessManager>(), v2);
         }

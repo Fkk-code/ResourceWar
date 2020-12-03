@@ -2,17 +2,6 @@
 using Utilty;
 
 /// <summary>
-/// 技能编号枚举
-/// </summary>
-public enum SkillNumber
-{
-    治疗术,
-    凝神,
-    燃烧,
-    火球术
-}
-
-/// <summary>
 /// 技能效果枚举
 /// </summary>
 public enum SkillEffect
@@ -37,8 +26,11 @@ public enum SkillTarget
 /// </summary>
 public enum SkillType
 {
+
     LifeValue,      //生命值
+    MaxLifeValue,
     MagicalValue,  //魔法值
+    MaxMagicalValue,
     PhysicaLAttack, //物理攻击
     PhysicalDefense,//物理防御
     MagicAttack,    //魔攻
@@ -152,6 +144,15 @@ public class SkillClass : Singleton<SkillClass>
         newSkill = new Skill(SkillNumber.凝神, 0, SkillTarget.Self, 0, 0, skillBases);
         skillInfo.Add(SkillNumber.凝神, newSkill);
         #endregion
+        #region 冥想
+        skillBases = new SkillBase[2]
+        {
+            new SkillBase(SkillEffect.Reduce,SkillTarget.Self,SkillType.MagicalValue,10),
+            new SkillBase(SkillEffect.Increase,SkillTarget.Self,SkillType.MagicAttack,10,"凝神")
+        };
+        newSkill = new Skill(SkillNumber.冥想, 10, SkillTarget.Self, 0, 0, skillBases);
+        skillInfo.Add(SkillNumber.冥想, newSkill);
+        #endregion
         #region 燃烧
         skillBases = new SkillBase[2]
         {
@@ -169,6 +170,24 @@ public class SkillClass : Singleton<SkillClass>
         };
         newSkill = new Skill(SkillNumber.火球术, 5, SkillTarget.Enemy, 7, 0, skillBases);
         skillInfo.Add(SkillNumber.火球术, newSkill);
+        #endregion
+        #region 战斗怒吼
+        skillBases = new SkillBase[2]
+        {
+            new SkillBase(SkillEffect.Reduce,SkillTarget.Self,SkillType.MagicalValue,5),
+            new SkillBase(SkillEffect.Increase,SkillTarget.Enemy,SkillType.PhysicaLAttack,10,"Improve")
+        };
+        newSkill = new Skill(SkillNumber.战斗怒吼, 5, SkillTarget.Self, 0, 1, skillBases);
+        skillInfo.Add(SkillNumber.战斗怒吼, newSkill);
+        #endregion
+        #region 骑士祝福
+        skillBases = new SkillBase[2]
+        {
+            new SkillBase(SkillEffect.Reduce,SkillTarget.Self,SkillType.MagicalValue,5),
+            new SkillBase(SkillEffect.Increase,SkillTarget.Enemy,SkillType.MaxLifeValue,20,"Improve")
+        };
+        newSkill = new Skill(SkillNumber.骑士祝福, 5, SkillTarget.Self, 0, 1, skillBases);
+        skillInfo.Add(SkillNumber.骑士祝福, newSkill);
         #endregion
     }
 }

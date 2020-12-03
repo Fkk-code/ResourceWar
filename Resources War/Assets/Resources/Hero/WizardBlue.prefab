@@ -5352,11 +5352,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d437c7bd484438478070f47a0c38f52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChessName: 
-  ChessLevel: 1
+  Level: 1
   moveMaxDictance: 3
   attackMaxDictance: 1
-  moveSpeed: 0.25
   Hp_Max: 23
   Mp_Max: 20
   Atk: 5
@@ -5364,7 +5362,7 @@ MonoBehaviour:
   MAtk: 10
   MDef: 8
   Speed: 6
-  skills: 00000000010000000200000003000000
+  skills: 0000000001000000020000000300000004000000
 --- !u!114 &-7768250931875760817
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -38,6 +38,8 @@ public class ChessState : MonoBehaviour
     public int Speed = 1;
     //技能数组
     public List<SkillNumber> skills;
+    //buff数组
+    public Dictionary<SkillNumber, int> buffs;
     //队伍编号
     [NonSerialized]
     public int team;
@@ -49,6 +51,18 @@ public class ChessState : MonoBehaviour
         //获取组件
         _chessManager = GetComponent<ChessManager>();
         //初始化
+        buffs = new Dictionary<SkillNumber, int>();
+    }
+    /// <summary>
+    /// 战前设置
+    /// </summary>
+    /// <param name="t">队伍编号</param>
+    public void InitBeforeBattle(int t)
+    {
+        //查询数据
+        //设置属性
+        team = t;
+        buffs = new Dictionary<SkillNumber, int>();
         Hp = Hp_Max;
         Mp = Mp_Max;
     }
