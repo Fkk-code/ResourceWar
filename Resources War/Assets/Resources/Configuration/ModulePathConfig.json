@@ -1,0 +1,41 @@
+{
+  "UIPanels": [
+	{
+		"PanelName": "Main_Panel",
+		"PanelPath": "UI/Main_Panel"
+	},
+	{
+		"PanelName": "PlayerInfoPanel",
+		"PanelPath": "UI/PlayerInfoPanel"
+	},
+	{
+		"PanelName": "KnapsackPanel",
+		"PanelPath": "UI/KnapsackPanel"
+	},
+	{
+		"PanelName": "BattlePanel#",
+		"PanelPath": "UI/BattlePanel#"
+	},
+	{
+		"PanelName": "WarehousePanel",
+		"PanelPath": "UI/WarehousePanel"
+		
+	},
+	{
+		"PanelName": "SelectHeroPanel",
+		"PanelPath": "UI/SelectHeroPanel"
+	},
+	{
+		"PanelName": "LoadScenePanel",
+		"PanelPath": "UI/LoadScenePanel"
+	},
+	{
+		"PanelName": "StartPanel",
+		"PanelPath": "UI/StartPanel"
+	},
+		{
+		"PanelName": "EndBattlePanel",
+		"PanelPath": "UI/EndBattlePanel"
+	}
+  ]
+}

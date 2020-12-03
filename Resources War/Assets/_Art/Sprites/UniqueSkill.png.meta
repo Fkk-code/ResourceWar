@@ -1,0 +1,2711 @@
+fileFormatVersion: 2
+guid: 1d38ab81623f9a44ebc3e4aa7b679682
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7330948844548482707
+    second: UniqueSkill_0
+  - first:
+      213: 7043558005372476327
+    second: UniqueSkill_1
+  - first:
+      213: 6511018237091925737
+    second: UniqueSkill_2
+  - first:
+      213: -6103677810529735062
+    second: UniqueSkill_3
+  - first:
+      213: 9094651460902704381
+    second: UniqueSkill_4
+  - first:
+      213: 2411943717787395835
+    second: UniqueSkill_5
+  - first:
+      213: 682196217231260317
+    second: UniqueSkill_6
+  - first:
+      213: 7618098336528347515
+    second: UniqueSkill_7
+  - first:
+      213: -1909561613784424364
+    second: UniqueSkill_8
+  - first:
+      213: 6939808848930786915
+    second: UniqueSkill_9
+  - first:
+      213: -2049263362583339320
+    second: UniqueSkill_10
+  - first:
+      213: 2527687206204639476
+    second: UniqueSkill_11
+  - first:
+      213: 4118429145433383430
+    second: UniqueSkill_12
+  - first:
+      213: -3259637158657469944
+    second: UniqueSkill_13
+  - first:
+      213: 2886456961913731140
+    second: UniqueSkill_14
+  - first:
+      213: -1350732599225620009
+    second: UniqueSkill_15
+  - first:
+      213: 4376036204899823795
+    second: UniqueSkill_16
+  - first:
+      213: -1341527121591590111
+    second: UniqueSkill_17
+  - first:
+      213: -736559135192842736
+    second: UniqueSkill_18
+  - first:
+      213: 3119988946750398738
+    second: UniqueSkill_19
+  - first:
+      213: 5308328879442135040
+    second: UniqueSkill_20
+  - first:
+      213: -4339538231777717505
+    second: UniqueSkill_21
+  - first:
+      213: -6821408467860451830
+    second: UniqueSkill_22
+  - first:
+      213: -1559612805368500510
+    second: UniqueSkill_23
+  - first:
+      213: -6316613215061932108
+    second: UniqueSkill_24
+  - first:
+      213: 8201775894820649503
+    second: UniqueSkill_25
+  - first:
+      213: 6622394954795512576
+    second: UniqueSkill_26
+  - first:
+      213: -3395390808359835361
+    second: UniqueSkill_27
+  - first:
+      213: -6787592534316587320
+    second: UniqueSkill_28
+  - first:
+      213: -1697655212522530998
+    second: UniqueSkill_29
+  - first:
+      213: 720010560431733240
+    second: UniqueSkill_30
+  - first:
+      213: -7139055580851931250
+    second: UniqueSkill_31
+  - first:
+      213: 7144141028362311548
+    second: UniqueSkill_32
+  - first:
+      213: -2802710500990390989
+    second: UniqueSkill_33
+  - first:
+      213: -5870712972509023185
+    second: UniqueSkill_34
+  - first:
+      213: 35040028700281053
+    second: UniqueSkill_35
+  - first:
+      213: -3276233600347669944
+    second: UniqueSkill_36
+  - first:
+      213: 1831419680525287511
+    second: UniqueSkill_37
+  - first:
+      213: -2372304105486388618
+    second: UniqueSkill_38
+  - first:
+      213: 4657137982915938145
+    second: UniqueSkill_39
+  - first:
+      213: -6021987449049359247
+    second: UniqueSkill_40
+  - first:
+      213: -1199470703873045018
+    second: UniqueSkill_41
+  - first:
+      213: -4231603412732835559
+    second: UniqueSkill_42
+  - first:
+      213: 7361534544728366938
+    second: UniqueSkill_43
+  - first:
+      213: -598762648005428864
+    second: UniqueSkill_44
+  - first:
+      213: 6782348554703274329
+    second: UniqueSkill_45
+  - first:
+      213: 7405042924688340369
+    second: UniqueSkill_46
+  - first:
+      213: -1811485554475828705
+    second: UniqueSkill_47
+  - first:
+      213: 2762455588382906931
+    second: UniqueSkill_48
+  - first:
+      213: -1926891386415308874
+    second: UniqueSkill_49
+  - first:
+      213: -4843907683638893644
+    second: UniqueSkill_50
+  - first:
+      213: -5539632020101977997
+    second: UniqueSkill_51
+  - first:
+      213: 4941619051999916346
+    second: UniqueSkill_52
+  - first:
+      213: -3427956914548732429
+    second: UniqueSkill_53
+  - first:
+      213: 4834097438712223636
+    second: UniqueSkill_54
+  - first:
+      213: -3941837282166212777
+    second: UniqueSkill_55
+  - first:
+      213: -2114769327324884241
+    second: UniqueSkill_56
+  - first:
+      213: -4629585927893251396
+    second: UniqueSkill_57
+  - first:
+      213: -188584855565955111
+    second: UniqueSkill_58
+  - first:
+      213: 4535715401108996460
+    second: UniqueSkill_59
+  - first:
+      213: -8265454945049328251
+    second: UniqueSkill_60
+  - first:
+      213: 5327463195128044796
+    second: UniqueSkill_61
+  - first:
+      213: -7102744183292429044
+    second: UniqueSkill_62
+  - first:
+      213: 4520804634079850463
+    second: UniqueSkill_63
+  - first:
+      213: -7651635810577165201
+    second: UniqueSkill_64
+  - first:
+      213: -8503217571543576403
+    second: UniqueSkill_65
+  - first:
+      213: -7596888593168172971
+    second: UniqueSkill_66
+  - first:
+      213: 8495960783775708163
+    second: UniqueSkill_67
+  - first:
+      213: 8561375059472198009
+    second: UniqueSkill_68
+  - first:
+      213: -6533734198259040370
+    second: UniqueSkill_69
+  - first:
+      213: 9193163780182993823
+    second: UniqueSkill_70
+  - first:
+      213: 289139399926650309
+    second: UniqueSkill_71
+  - first:
+      213: -3826747978181883403
+    second: UniqueSkill_72
+  - first:
+      213: -7449761654728905956
+    second: UniqueSkill_73
+  - first:
+      213: 4897409174153619175
+    second: UniqueSkill_74
+  - first:
+      213: 2736704658844930001
+    second: UniqueSkill_75
+  - first:
+      213: -1882732974052508808
+    second: UniqueSkill_76
+  - first:
+      213: -3106396771594665463
+    second: UniqueSkill_77
+  - first:
+      213: -525682375472766431
+    second: UniqueSkill_78
+  - first:
+      213: 8593820218186369731
+    second: UniqueSkill_79
+  - first:
+      213: 3646622306477282660
+    second: UniqueSkill_80
+  - first:
+      213: 6862143776299108106
+    second: UniqueSkill_81
+  - first:
+      213: 6204375316936469683
+    second: UniqueSkill_82
+  - first:
+      213: -1092125560549453220
+    second: UniqueSkill_83
+  - first:
+      213: -4487664213959658526
+    second: UniqueSkill_84
+  - first:
+      213: -9030804342579303592
+    second: UniqueSkill_85
+  - first:
+      213: 1318822224776648413
+    second: UniqueSkill_86
+  - first:
+      213: -5701444770754879108
+    second: UniqueSkill_87
+  - first:
+      213: -3571693645840106081
+    second: UniqueSkill_88
+  - first:
+      213: -1547284398725628143
+    second: UniqueSkill_89
+  - first:
+      213: -7519903065560623286
+    second: UniqueSkill_90
+  - first:
+      213: -8100298276972085358
+    second: UniqueSkill_91
+  - first:
+      213: 6271218248596969408
+    second: UniqueSkill_92
+  - first:
+      213: 7868112127590304448
+    second: UniqueSkill_93
+  - first:
+      213: -3972146832868208360
+    second: UniqueSkill_94
+  - first:
+      213: 6080131421762069387
+    second: UniqueSkill_95
+  - first:
+      213: 7411924720201878734
+    second: UniqueSkill_96
+  - first:
+      213: -3394337152020820238
+    second: UniqueSkill_97
+  - first:
+      213: 1756275420938977344
+    second: UniqueSkill_98
+  - first:
+      213: 424215260045905306
+    second: UniqueSkill_99
+  - first:
+      213: 1836151023293071342
+    second: UniqueSkill_100
+  - first:
+      213: 815955543116156164
+    second: UniqueSkill_101
+  - first:
+      213: 7961383326521612430
+    second: UniqueSkill_102
+  - first:
+      213: 2901942735180991455
+    second: UniqueSkill_103
+  - first:
+      213: 8965632631124354079
+    second: UniqueSkill_104
+  - first:
+      213: -1175650571321575335
+    second: UniqueSkill_105
+  - first:
+      213: -2113706973615413953
+    second: UniqueSkill_106
+  - first:
+      213: -3078660734024136281
+    second: UniqueSkill_107
+  - first:
+      213: 5469373853910376788
+    second: UniqueSkill_108
+  - first:
+      213: 7055095503380043448
+    second: UniqueSkill_109
+  - first:
+      213: -3908236527666203759
+    second: UniqueSkill_110
+  - first:
+      213: 1801390209958662075
+    second: UniqueSkill_111
+  - first:
+      213: -5915286112907179249
+    second: UniqueSkill_112
+  - first:
+      213: 4772870496371772272
+    second: UniqueSkill_113
+  - first:
+      213: -6019997594041791253
+    second: UniqueSkill_114
+  - first:
+      213: 799917090783830650
+    second: UniqueSkill_115
+  - first:
+      213: -9111188755733902534
+    second: UniqueSkill_116
+  - first:
+      213: 8261481532440722831
+    second: UniqueSkill_117
+  - first:
+      213: -7442331046498302134
+    second: UniqueSkill_118
+  - first:
+      213: 2171030203976885199
+    second: UniqueSkill_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UniqueSkill_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 795
+        width: 137
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3966fd11223ccb560800000000000000
+      internalID: 7330948844548482707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 794
+        width: 133
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abd51100bebfb160800000000000000
+      internalID: 7043558005372476327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 946
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee44fbf698cb5a50800000000000000
+      internalID: 6511018237091925737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 946
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4d7137151b63e70800000000000000
+      internalID: 9094651460902704381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 946
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6e3f44802f87120800000000000000
+      internalID: 2411943717787395835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 946
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3f2b58d5a77900800000000000000
+      internalID: 682196217231260317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_7
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 946
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7134cc131ce8b960800000000000000
+      internalID: 7618098336528347515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_8
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 946
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45068ad54dfdf75e0800000000000000
+      internalID: -1909561613784424364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_9
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 946
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ec1a121672f4060800000000000000
+      internalID: 6939808848930786915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_10
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 946
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce5ff544dd8f83e0800000000000000
+      internalID: -2049263362583339320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 868
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8802d2f16241320800000000000000
+      internalID: 2527687206204639476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_12
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 868
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6022c26cc79972930800000000000000
+      internalID: 4118429145433383430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_13
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 866
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802de85464173c2d0800000000000000
+      internalID: -3259637158657469944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 790
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44832525051ce0820800000000000000
+      internalID: 2886456961913731140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_16
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 868
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b07d4d3ebdcabc30800000000000000
+      internalID: 4376036204899823795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_17
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 868
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1232bfcc030f16de0800000000000000
+      internalID: -1341527121591590111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_18
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 868
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ef2c67e5737c5f0800000000000000
+      internalID: -736559135192842736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_19
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 868
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211e33aaa6d6c4b20800000000000000
+      internalID: 3119988946750398738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_20
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 868
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008881abdf8faa940800000000000000
+      internalID: 5308328879442135040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_22
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 790
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e065dc32d7551a0800000000000000
+      internalID: -6821408467860451830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 792
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee2cdcaa642b5ae0800000000000000
+      internalID: -1559612805368500510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_24
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 790
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b702bc6fb1e658a0800000000000000
+      internalID: -6316613215061932108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_25
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 790
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a7522b8bf82d170800000000000000
+      internalID: 8201775894820649503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_26
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 790
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003fceadf1977eb50800000000000000
+      internalID: 6622394954795512576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_27
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 790
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19e512ac0621e0d0800000000000000
+      internalID: -3395390808359835361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_28
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 790
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c667ff5d80adc1a0800000000000000
+      internalID: -6787592534316587320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 563
+        width: 139
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f930193acdfdf900800000000000000
+      internalID: 720010560431733240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 548
+        width: 135
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87fc8706cafcec90800000000000000
+      internalID: -7139055580851931250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_32
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 710
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7754dcf966152360800000000000000
+      internalID: 7144141028362311548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_33
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 712
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33de53416a5ca19d0800000000000000
+      internalID: -2802710500990390989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_34
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 712
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f247257e7a9078ea0800000000000000
+      internalID: -5870712972509023185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_35
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 712
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8899f68bc7c7000800000000000000
+      internalID: 35040028700281053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_36
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 712
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84af31216ea7882d0800000000000000
+      internalID: -3276233600347669944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_38
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 712
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672784d2cf1e31fd0800000000000000
+      internalID: -2372304105486388618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_39
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 712
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1670fa5225a71a040800000000000000
+      internalID: 4657137982915938145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_40
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 712
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c5d89225a9d6ca0800000000000000
+      internalID: -6021987449049359247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_42
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 634
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9198ab9bd135645c0800000000000000
+      internalID: -4231603412732835559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_44
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 634
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0893dd44b84c0b7f0800000000000000
+      internalID: -598762648005428864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_45
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 634
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95109f9731ebf1e50800000000000000
+      internalID: 6782348554703274329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_46
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 634
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19571907e4ff3c660800000000000000
+      internalID: 7405042924688340369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_47
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 634
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a77b16c7f4cd6e0800000000000000
+      internalID: -1811485554475828705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_48
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 634
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a1b55b8b6365620800000000000000
+      internalID: 2762455588382906931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_49
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 634
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf94ff3e7e4245e0800000000000000
+      internalID: -1926891386415308874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_50
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 634
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b32be730abf6ccb0800000000000000
+      internalID: -4843907683638893644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_51
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 634
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378217727064f13b0800000000000000
+      internalID: -5539632020101977997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_53
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 554
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd8afa29537d60d0800000000000000
+      internalID: -3427956914548732429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_54
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 556
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4975114220a261340800000000000000
+      internalID: 4834097438712223636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_55
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 556
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757771a60e7cb49c0800000000000000
+      internalID: -3941837282166212777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_56
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 556
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe298e65084d6a2e0800000000000000
+      internalID: -2114769327324884241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_57
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 556
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba86ce802860cfb0800000000000000
+      internalID: -4629585927893251396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_58
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 554
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df09f1b213026df0800000000000000
+      internalID: -188584855565955111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_59
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 558
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61ce55402912fe30800000000000000
+      internalID: 4535715401108996460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_60
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 482
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585c65d05843b4d80800000000000000
+      internalID: -8265454945049328251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_61
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 558
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc1393cc83fee940800000000000000
+      internalID: 5327463195128044796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_62
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 306
+        width: 137
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0df1681ccbfd6d90800000000000000
+      internalID: -7102744183292429044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_63
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 314
+        width: 135
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfe449ccdf1dbe30800000000000000
+      internalID: 4520804634079850463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_64
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 327
+        width: 145
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64d3e735cdefc590800000000000000
+      internalID: -7651635810577165201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_65
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 478
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da01940bba08ef980800000000000000
+      internalID: -8503217571543576403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_66
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 478
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5587ef5131e629690800000000000000
+      internalID: -7596888593168172971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_67
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 478
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304b99eb157b7e570800000000000000
+      internalID: 8495960783775708163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_68
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 478
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979aab8a14d10d670800000000000000
+      internalID: 8561375059472198009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_69
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 478
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fb2f72d538355a0800000000000000
+      internalID: -6533734198259040370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_70
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 482
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b6bc720cda49f70800000000000000
+      internalID: 9193163780182993823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_72
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 400
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f946832df8a4eac0800000000000000
+      internalID: -3826747978181883403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_73
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 399
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bae8cde312d9890800000000000000
+      internalID: -7449761654728905956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_74
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 400
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e66a2142b717f340800000000000000
+      internalID: 4897409174153619175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_75
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 400
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfcb95336abaf520800000000000000
+      internalID: 2736704658844930001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_76
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 400
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b7fa2d5503fd5e0800000000000000
+      internalID: -1882732974052508808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_77
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 406
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9020ea9389cd3e4d0800000000000000
+      internalID: -3106396771594665463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_78
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 406
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12223492aa664b8f0800000000000000
+      internalID: -525682375472766431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_80
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 339
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4651897caa76b9230800000000000000
+      internalID: 3646622306477282660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_81
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 342
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0747f7486b3b3f50800000000000000
+      internalID: 6862143776299108106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_82
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 322
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc23338a7e5a1650800000000000000
+      internalID: 6204375316936469683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_83
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 322
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c525359c69df7d0f0800000000000000
+      internalID: -1092125560549453220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_84
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 322
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3b3bf8c2d98b1c0800000000000000
+      internalID: -4487664213959658526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_85
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 330
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b61843c432ca280800000000000000
+      internalID: -9030804342579303592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_86
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 334
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6d3b573d56d4210800000000000000
+      internalID: 1318822224776648413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_87
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 386
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71a5a4403660e0b0800000000000000
+      internalID: -5701444770754879108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_88
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 357
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d3e218d8bce6ec0800000000000000
+      internalID: -3571693645840106081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_90
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 246
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4753e70100f3a790800000000000000
+      internalID: -7519903065560623286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_91
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 268
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fbe5262a5f59f80800000000000000
+      internalID: -8100298276972085358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_92
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 244
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d19055c7d70750800000000000000
+      internalID: 6271218248596969408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_93
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 244
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca86f10b46213d60800000000000000
+      internalID: 7868112127590304448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_94
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 244
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8119237308910e8c0800000000000000
+      internalID: -3972146832868208360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_95
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 254
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a1dd6057f06450800000000000000
+      internalID: 6080131421762069387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_96
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 258
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc19153427cd660800000000000000
+      internalID: 7411924720201878734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_97
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 74
+        width: 139
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe43ed1854e4e0d0800000000000000
+      internalID: -3394337152020820238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_98
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 76
+        width: 135
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04041d0b03b8f5810800000000000000
+      internalID: 1756275420938977344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_99
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 6
+        width: 156
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d065b088d13e500800000000000000
+      internalID: 424215260045905306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_100
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 95
+        width: 76
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef7a5990a15b7910800000000000000
+      internalID: 1836151023293071342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_101
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 190
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d03fb4e3bd25b00800000000000000
+      internalID: 815955543116156164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_102
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 166
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88d90a44f38c7e60800000000000000
+      internalID: 7961383326521612430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_103
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 166
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb0df0ea85c54820800000000000000
+      internalID: 2901942735180991455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_104
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 166
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1461d440635c6c70800000000000000
+      internalID: 8965632631124354079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_105
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 34
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9587464c8004fafe0800000000000000
+      internalID: -1175650571321575335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_106
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 112
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f352366d4ba9aa2e0800000000000000
+      internalID: -2113706973615413953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_107
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 88
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a94c84bf566645d0800000000000000
+      internalID: -3078660734024136281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_108
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 88
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451232aca8e17eb40800000000000000
+      internalID: 5469373853910376788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_109
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 88
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b65c671bfbb8e160800000000000000
+      internalID: 7055095503380043448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfc37e0ad2dff810800000000000000
+      internalID: 1801390209958662075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_112
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 171
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bcd5fee9ea8eda0800000000000000
+      internalID: -5915286112907179249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_113
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 14
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b8e2fbd64ac3240800000000000000
+      internalID: 4772870496371772272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_114
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 10
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becce62651ca47ca0800000000000000
+      internalID: -6019997594041791253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_115
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 10
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a722fed1b50e91b00800000000000000
+      internalID: 799917090783830650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_116
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 10
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b82fc891e8e8180800000000000000
+      internalID: -9111188755733902534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_118
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 26
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a478b98285787b890800000000000000
+      internalID: -7442331046498302134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UniqueSkill_15
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 555
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3afa8c77c012e10800000000000000
+      internalID: 2171030203976885199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

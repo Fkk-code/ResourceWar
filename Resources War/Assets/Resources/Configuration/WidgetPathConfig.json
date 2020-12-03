@@ -1,0 +1,33 @@
+{
+	"UIWidgetMsgs": [
+		{
+			"WidgetName": "ChangerPalyer",
+			"WidgetPath": "UI/ChangerPalyer"
+		},
+		{
+			"WidgetName": "HeroToggle#",
+			"WidgetPath": "UI/HeroToggle#"
+		},
+		{
+			"WidgetName": "Btn00#",
+			"WidgetPath": "UI/Btn00#"
+		},
+		{
+			"WidgetName": "Btn02#",
+			"WidgetPath": "UI/Btn02#"
+		},
+		{
+			"WidgetName": "Btn03#",
+			"WidgetPath": "UI/Btn03#"
+		},
+		{
+		
+			"WidgetName": "Btn01#",
+			"WidgetPath": "UI/Btn01#"
+		},
+		{
+			"WidgetName": "TrophyImg",
+			"WidgetPath": "UI/TrophyImg"
+		}
+	]
+}
